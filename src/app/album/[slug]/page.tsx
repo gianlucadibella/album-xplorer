@@ -11,7 +11,7 @@ export default async function AlbumDetail ( { params }: { params: { slug: string
 
     return (
         <div className="flex m-10 gap-4">
-            <AlbumInformation photos={ photos } />
+            <AlbumInformation photos={ photos } albumId={params.slug}/>
             <PhotosInAlbum photos={ photos } />
         </div>
     )
