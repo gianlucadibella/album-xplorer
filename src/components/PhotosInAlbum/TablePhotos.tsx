@@ -54,3 +54,5 @@ export const TablePhotos = ({ photos }: Props) => {
     </table>
     );
 }
+
+export default TablePhotos;

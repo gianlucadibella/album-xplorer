@@ -9,7 +9,6 @@ export default async function Home ()
 
   const albums: IAlbum[] = await getAlbums()
 
-
   return (
     <main className="flex flex-col pb-10">
       <div className="flex justify-end m-10 gap-4">
