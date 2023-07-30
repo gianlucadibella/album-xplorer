@@ -3,7 +3,3 @@ export interface IAlbum {
     id: number;
     title: string;
 }
-
-export interface IAlbumsResponse {
-    albums: IAlbum[];
-}
