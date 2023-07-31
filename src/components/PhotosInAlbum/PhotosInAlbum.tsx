@@ -28,3 +28,5 @@ export const PhotosInAlbum = ( {
         </div>
     )
 }
+
+export default PhotosInAlbum;

@@ -19,12 +19,14 @@ export const AlbumCover = ( {
             <div className="flex flex-col justify-center items-center 
                         rounded-lg border border-zinc-300 w-[300px]
                         p-2 shadow-sm relative hover:bg-gray-100
-                        pb-6">
+                        pb-6"
+                    id={'album-' + album.id.toString()}>
                 <div className="flex flex-col justify-center items-center -mt-12 gap-4">
                     <Image src={ photos[ album?.id - 1 ]?.thumbnailUrl } 
                         alt={ photos[ album?.id - 1 ]?.title }
                         width={ 100 } height={ 100 } 
                         className="rounded-full relative"
+                        loading="eager"
                         />
 
                     <div className="flex flex-col justify-center items-center">

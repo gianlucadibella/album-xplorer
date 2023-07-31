@@ -32,7 +32,8 @@ export const SearchInput = ( {
             <input className="focus:outline-none w-56"
                 type="text" placeholder="Buscar..."
                 onChange={ ( e ) => handleSearch( e ) }
-                value={ searchTerm } />
+                value={ searchTerm }
+                id="searchBar" />
 
         </div>
     )

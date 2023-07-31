@@ -20,9 +20,11 @@ export const AlbumInformation = async ( { photos, albumId }: Props ) =>
             <Image src={ photos[ 0 ].thumbnailUrl } alt={ albumData.title }
                 className="rounded-lg mt-5" width={ 150 } height={ 150 } />
             <div className="flex flex-col justify-center items-center text-center m-4 max-w-[250px]">
-                <p className="break-words">Title: <strong>{ albumData.title }</strong></p>
+                <p className="break-words" id="album-title">Title: <strong>{ albumData.title }</strong></p>
                 <p className="italic w-full">Album Id: { photos[ 0 ].albumId }</p>
             </div>
         </div>
     )
 };
+
+export default AlbumInformation;

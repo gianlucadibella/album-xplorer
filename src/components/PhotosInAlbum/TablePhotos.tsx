@@ -15,6 +15,7 @@ export const TablePhotos = ( { photos }: Props ) =>
 
     const [ open, setOpen ] = useState( false )
     const [ photo, setPhoto ] = useState<IPhoto>( {} as IPhoto )
+    
     const Modal = dynamic( () => import( '@/components/Modal/Modal' ) )
 
     return (
@@ -42,7 +43,7 @@ export const TablePhotos = ( { photos }: Props ) =>
                         const backgroundColor = index % 2 === 0 ? '#FAF9F6' : '#E5F3FD'
                         return (
                             <tr
-                                key={ photo.albumId }
+                                key={ index + `photo.title` }
                                 style={ {
                                     backgroundColor: backgroundColor,
                                     textAlign: 'center',
@@ -52,6 +53,7 @@ export const TablePhotos = ( { photos }: Props ) =>
                                         setOpen( true )
                                         setPhoto( photo )
                                 }}
+                                id={ `photo-${ photo.id }`}
                             >
                                 <td className="flex justify-center p-2">
                                     <Image src={ photo.thumbnailUrl } title={ photo.title } alt={ photo.title }
