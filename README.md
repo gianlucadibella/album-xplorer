@@ -37,6 +37,14 @@ Siempre existen maneras de hacer que la experiencia en AlbumXplorer sea aún mej
 - 🌐 Soporte para internacionalización para llegar a más amantes de la fotografía en todo el mundo.
 - 🎯 Mejorar la experiencia móvil para aquellos que exploran desde sus dispositivos.
 
+## ¿Por qué no utilicé localStorage? 🤔
+
+- **Actualización en tiempo real** ⏳: Al obtener datos del servidor, siempre mostramos la información más actualizada de tus álbumes de fotos.
+- **Evita problemas de sincronización** 🔄: No hay conflictos de sincronización entre dispositivos, ya que todos los usuarios obtienen los mismos datos del servidor.
+- **Espacio de almacenamiento ilimitado** 💾: Al obtener los datos directamente desde el servidor, evitamos ocupar el límite de aproximadamente 5-10 MB en el localStorage.
+- **Mejor escalabilidad** 📈: Obtener datos del servidor permite una mayor escalabilidad, ya que el servidor puede manejar la carga de múltiples usuarios eficientemente.
+
+
 ## Licencia
 
 AlbumXplorer se rige por la licencia MIT. Consulta el archivo LICENSE para conocer todos los detalles.
