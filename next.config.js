@@ -16,10 +16,6 @@ const nextConfig = {
         } else {
           // Configuración para modo production
           config.optimization.minimize = true;
-          config.optimization.minimizer = [
-            new TerserPlugin(),
-            new CssMinimizerPlugin(),
-          ];
         }
     
         return config;
