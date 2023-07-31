@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![AlbumXplorer by Gianluca Di Bella](hero.png)
 
-## Getting Started
+# AlbumXplorer - Explora y Descubre Álbumes de Fotos 📸🔍
 
-First, run the development server:
+¡Hola, soy Gianluca Di Bella, y te presento AlbumXplorer! Una emocionante aplicación para explorar y descubrir álbumes de fotos de tus momentos favoritos. 🌄🌞
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Cómo ejecutar el proyecto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para poner en funcionamiento esta maravillosa aplicación, necesitarás tener instalado [Node.js](https://nodejs.org) en tu computadora.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Descarga o clona el repositorio en tu computadora.
+2. Abre una terminal en la carpeta del proyecto y ejecuta el comando `npm install` para instalar las dependencias mágicas.
+3. Una vez que se hayan instalado las dependencias, ejecuta el comando `npm start` para iniciar el poderoso servidor local.
+4. ¡Abracadabra! Abre tu navegador web y visita `http://localhost:3000` para sumergirte en la experiencia fotográfica de AlbumXplorer.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+En AlbumXplorer, hemos utilizado Next.js 13, una versión brillante de Next.js que nos permitió aprovechar el SSR (Server-Side Rendering) para pre-cargar la página, disminuir los tiempos de espera y brindar un boost en SEO y en el rendimiento general de la página. ✨💨
 
-## Learn More
+## Tecnologías Utilizadas 💻
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 13 🌟
+- React con Hooks ⚛️ (¡La magia de los Hooks para un manejo mágico de estado! 🪄)
+- Tailwind CSS 🎨 (¡Sin preocupaciones por los estilos, solo magia! ✨)
+- Prop Drilling Básico para un manejo simple de datos entre componentes 🌈
+- Arquitectura basada en Componentes de Next.js para una estructura clara y escalable 🌠
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pruebas en Cypress
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+En AlbumXplorer, queremos asegurarnos de que todo funcione de manera impecable. Realicé pruebas en Cypress para garantizar la correcta interacción de los elementos y la experiencia del usuario.
 
-## Deploy on Vercel
+Para correr las pruebas, asegúrate de que la página esté en `http://localhost:3000` y luego ejecuta el comando `npm run cypress:open` en tu terminal.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Posibles Mejoras
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Siempre existen maneras de hacer que la experiencia en AlbumXplorer sea aún mejor. Algunas mejoras que estoy considerando incluyen:
+
+- 🚀 Agregar animaciones para una experiencia más interactiva.
+- 🌐 Soporte para internacionalización para llegar a más amantes de la fotografía en todo el mundo.
+- 🎯 Mejorar la experiencia móvil para aquellos que exploran en sus dispositivos mágicos.
+
+## Licencia
+
+AlbumXplorer se rige por la licencia MIT. Consulta el archivo LICENSE para conocer todos los detalles.
+
+¡Prepárate para vivir una experiencia fotográfica extraordinaria en AlbumXplorer! 🌄🌈🌞

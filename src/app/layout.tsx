@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'AlbumXplorer',
   description: 'A simple album explorer',
+  icons: {
+    icon: '/icon.ico'
+  }
 }
 
 export default function RootLayout({
