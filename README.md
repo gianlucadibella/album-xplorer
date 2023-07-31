@@ -25,7 +25,7 @@ En AlbumXplorer, hemos utilizado Next.js 13, una versión brillante de Next.js q
 
 ## Pruebas en Cypress
 
-En AlbumXplorer, queremos asegurarnos de que todo funcione de manera impecable. Realicé pruebas en Cypress para garantizar la correcta interacción de los elementos y la experiencia del usuario.
+En AlbumXplorer, se necesita que todo funcione de manera impecable. Realicé pruebas en Cypress para garantizar la correcta interacción de los elementos y la experiencia del usuario.
 
 Para correr las pruebas, asegúrate de que la página esté en `http://localhost:3000` y luego ejecuta el comando `npm run cypress:open` en tu terminal.
 
@@ -35,7 +35,7 @@ Siempre existen maneras de hacer que la experiencia en AlbumXplorer sea aún mej
 
 - 🚀 Agregar animaciones para una experiencia más interactiva.
 - 🌐 Soporte para internacionalización para llegar a más amantes de la fotografía en todo el mundo.
-- 🎯 Mejorar la experiencia móvil para aquellos que exploran en sus dispositivos mágicos.
+- 🎯 Mejorar la experiencia móvil para aquellos que exploran desde sus dispositivos.
 
 ## Licencia
 
