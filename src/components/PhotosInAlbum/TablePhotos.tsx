@@ -1,4 +1,5 @@
 'use client';
+
 import { useState } from "react";
 import { IPhoto } from "@/types/photos.type";
 import Image from "next/image";

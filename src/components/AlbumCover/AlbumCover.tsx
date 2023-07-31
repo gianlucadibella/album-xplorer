@@ -2,20 +2,18 @@ import Link from "next/link";
 import Image from "next/image";
 import { IAlbum } from "@/types/albums.type";
 import { IPhoto } from "@/types/photos.type";
-import { getOnePhotoByAlbum } from "@/services/photos.service";
 
 interface IAlbumCoverProps
 {
     album: IAlbum;
+    photos: IPhoto[];
 }
 
-export const AlbumCover = async( {
+export const AlbumCover = ( {
     album,
+    photos
 }: IAlbumCoverProps ) =>
 {
-
-    const photos: IPhoto[] = await getOnePhotoByAlbum();
-
     return (
         <Link href={ `/album/${ album?.id }` } key={ album?.id }>
             <div className="flex flex-col justify-center items-center 
@@ -27,7 +25,8 @@ export const AlbumCover = async( {
                         alt={ photos[ album?.id - 1 ]?.title }
                         width={ 100 } height={ 100 } 
                         className="rounded-full relative"
-                        quality={0}/>
+                        />
+
                     <div className="flex flex-col justify-center items-center">
                         <p className="break-words line-clamp-2 w-2/3 text-center">Title: <strong>{ album?.title }</strong></p>
                         <p className="italic">Album Id: { album?.id }</p>
